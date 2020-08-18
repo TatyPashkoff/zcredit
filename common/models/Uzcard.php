@@ -32,14 +32,10 @@ use Yii;
 class Uzcard extends \yii\db\ActiveRecord
 {
 
-    const APIURL = 'https://172.16.249.52:47007/api/jsonrpc';
-    const APIURL_TEST = 'https://195.158.28.126:7071/api/jsonrpc';
+
     const LOGIN = 'zmarket';
     const LOGIN_TEST = 'zmarket';
-    const PASSWORD_TEST = 'z4j)s(!(H[7Wq}k>u{P';
-    const PASSWORD = 'H#x%kfte[Bk}xxVT{Market<rY?(n';
-    public $autodiscar_info = '0';
-    const TEST_MODE = false;
+
 
     /**
      * @inheritdoc

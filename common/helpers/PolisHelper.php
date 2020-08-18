@@ -6,9 +6,7 @@ use Yii;
 class PolisHelper {
 
     private static $login = 'ZMarket';
-    private static $password = 'KFHUCcUiFRDNA4RHFzwjoevB9DIZgcLYnJvWJr3fd';
-    //private static $url = 'https://adsk.uns.uz:7777/IntegrationZMarket';
-    private static $url = 'https://adsk.uns.uz/IntegrationZMarket';
+
 
     // отправка заявки на создание полиса
     public static function getPolisForCredit($request_id,&$credit){

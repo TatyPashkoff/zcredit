@@ -10,9 +10,7 @@ class UpayHelper {
 
     //public static $wsdl = 'http://91.212.89.86:9212/STAPI/STWS?wsdl';
     public static $wsdl = 'https://api.upay.uz/STAPI/STWS?wsdl'; //- обращайтесь лучше к этому, тот скоро закроют
-    private static $login = 'zmarket';
-    private static $password = '3M@rk3t!';
-    private static $key = '93DB85ED909C13838FF95CCFA94CEBD9';
+
 
     const FINE_TRAFFIC_POLICE = 238; // Штрафы ГУБДД
     const BEELINE = 40; // +998 90/91

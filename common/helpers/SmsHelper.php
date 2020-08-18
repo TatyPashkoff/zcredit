@@ -6,7 +6,7 @@ use Yii;
 class SmsHelper {
 
     private static $login = 'zmarket';
-    private static $password = 'o4ELWHgj'; //'B#n#f21t';
+
 
 
     // отправка смс с текстом на номер

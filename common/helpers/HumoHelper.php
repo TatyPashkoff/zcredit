@@ -13,24 +13,6 @@ use SoapHeader;
 class HumoHelper
 {
 
-    private static $url_test_scoring = "https://192.168.35.123:8443/ws/services/Issuing"; // test
-    private static $url_scoring = "https://192.168.35.35:8443/ws/services/Issuing"; // prod
-    private static $url_test_balance = "https://192.168.35.126:6677"; // test
-    private static $url_balance = "https://192.168.35.22:6677"; // prod
-    private static $url_test_phone = "http://192.168.35.128:13010"; // резервный, не тест теперь стал
-    private static $url_phone = "http://192.168.35.27:13011";
-    //private static $url_phone = "http://192.168.35.150:13010"; // теперь этот основной
-    private static $url_discard_test = "http://192.168.35.126:11210";
-    private static $url_discard = "http://192.168.35.22:11210";
-
-    private static $merchant_id = '010950513654902';
-    private static $terminal_id = '096106Y7';
-
-    private static $login_test = 'aab';
-    private static $password_test = '1234';
-    private static $login = 'bil_zmarket';
-    private static $password = '&2(&VeJJ';
-
 
     //private static $limit = '1000000';
 
